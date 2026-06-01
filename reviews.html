@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews | Camping Products Sales</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">⛺ CPS</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="reviews.html" class="active">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Customer Feedback & Social Reviews</h1>
+        
+        <div class="social-links">
+            <p>Follow our community: 
+                <a href="#">🌐 Facebook</a> | 
+                <a href="#">📸 Instagram</a> | 
+                <a href="#">🐦 Twitter</a>
+            </p>
+        </div>
+
+        <div id="reviewList" class="reviews-container">
+            <div class="review-card">
+                <h2>John Doe ⭐⭐⭐⭐⭐</h2>
+                <p>"The 4-Person tent survived a heavy storm in the mountains. Highly recommend CPS!"</p>
+            </div>
+            <div class="review-card">
+                <h3>Sarah Jenkins ⭐⭐⭐⭐</h3>
+                <p>"Excellent backpack, very lightweight. Shipping was fast too."</p>
+            </div>
+        </div>
+
+        <div class="form-wrapper" style="margin-top: 40px;">
+            <h3>Leave a Product Review</h3>
+            <form id="reviewForm">
+                <div class="form-group">
+                    <label for="reviewerName">Your Name:</label>
+                    <input type="text" id="reviewerName">
+                    <span class="error" id="revNameError"></span>
+                </div>
+                <div class="form-group">
+                    <label for="reviewText">Review Comment:</label>
+                    <textarea id="reviewText" rows="4"></textarea>
+                    <span class="error" id="revTextError"></span>
+                </div>
+                <button type="submit" class="btn">Submit Review</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Camping Products Sales. All Rights Reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

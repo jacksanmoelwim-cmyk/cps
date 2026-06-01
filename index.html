@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camping Products Sales</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">⛺ CPS</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="cart.html" id="cart-nav">🛒 Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="slide-content">
+                <h1>Welcome to Camping Products Sales</h1>
+                <p>Gear up for your next international adventure with premium-quality equipment.</p>
+                <a href="products.html" class="btn">Explore Gear</a>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="slide-content" style="background-color: #1e272e;">
+                <h1>Big Summer Promotions!</h1>
+                <p>Get up to 30% off on waterproof tents and hiking boots.</p>
+                <a href="promotions.html" class="btn">View Promos</a>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="slide-content" style="background-color: #16a085;">
+                <h1>Join Our Global Membership</h1>
+                <p>Create an account today and unlock exclusive member-only tracking rewards.</p>
+                <a href="account.html" class="btn">Register Now</a>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+
+    <main class="container">
+        <h2>⭐ Most Popular Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <div class="product-img">⛺</div>
+                <h3>4-Person Family Tent</h3>
+                <p>Category: Tents</p>
+                <span class="price">$149.99</span>
+                <button class="btn add-to-cart" data-id="1" data-name="4-Person Family Tent" data-price="149.99" data-img="⛺">Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <div class="product-img">🎒</div>
+                <h3>65L Hiking Backpack</h3>
+                <p>Category: Bags</p>
+                <span class="price">$89.99</span>
+                <button class="btn add-to-cart" data-id="2" data-name="65L Hiking Backpack" data-price="89.99" data-img="🎒">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+<hr class="section-divider">
+
+        <section class="home-reviews">
+            <h2>💬 What Our Campers Say</h2>
+            <p class="section-subtitle">Real feedback from outdoor enthusiasts around the globe.</p>
+            
+            <div class="reviews-grid">
+                <div class="home-review-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"The family tent is absolutely amazing! It kept us completely dry during a heavy downpour in the rainforest. Worth every penny."</p>
+                    <h3 class="reviewer-name">- Aung Kyaw, Myanmar</h3>
+                </div>
+                
+                <div class="home-review-card">
+                    <div class="rating">⭐⭐⭐⭐★</div>
+                    <p class="review-text">"Bought the 65L hiking backpack for my Bhutan trek. Extremely comfortable support and durable material. Highly recommend CPS gear!"</p>
+                    <h4 class="reviewer-name">- Sarah Jenkins, UK</h4>
+                </div>
+
+                <div class="home-review-card">
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                    <p class="review-text">"Superb customer service! They guided me step-by-step on how to install the camping setup. Will definitely buy again."</p>
+                    <h4 class="reviewer-name">- David Lee, Singapore</h4>
+                </div>
+            </div>
+            
+            <div class="view-more-reviews">
+                <a href="reviews.html" class="btn">Write a Review</a>
+            </div>
+        </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Camping Products Sales. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

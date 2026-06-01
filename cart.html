@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Camping Products Sales</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">⛺ CPS</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="promotions.html">Promotions</a></li>
+                <li><a href="account.html">Account</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="cart.html" class="active" id="cart-nav">🛒 Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Your Shopping Cart</h1>
+        <div id="cart-container" class="cart-wrapper">
+            <p>Your cart is currently empty.</p>
+        </div>
+        <div class="cart-summary" id="cart-summary" style="display:none;">
+            <h2>Total: $<span id="cart-total-price">0.00</span></h2>
+            <button class="btn" onclick="clearCart()" style="background-color: #e74c3c; margin-top: 10px;">Clear Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Camping Products Sales. All Rights Reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
